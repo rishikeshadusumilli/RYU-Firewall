@@ -1,5 +1,5 @@
 # RYU-Firewall
-Python script to implement RYU controller for forwarding and firewall functionality
+Python script to implement RYU controller for implementing forwarding and firewall functionality
 
 Steps:
 1. Use mininet to create testing topology. Initialize the controller IP also - Command: sudo mn --topo=linear,2,2 --mac --controller=remote,ip=192.168.56.101 --switch=ovsk,protocols=OpenFlow13
